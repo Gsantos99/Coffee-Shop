@@ -4,6 +4,7 @@
   --black:#13131a;
   --bg:#010103;
   --border:0.1rem solid rgba(255,255,255,0.3);
+  --white: #fff;
 }
 
 
@@ -16,7 +17,7 @@
   border:none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 2s linear;
+  transition: 0.3s linear;
 }
 
 html{
@@ -27,15 +28,17 @@ scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
-  width: 0.8rem;
+  width: .8rem;
 }
+
+
 
 html::-webkit-scroll-track{
   background: transparent;
 }
 
 html::-webkit-scroll-thumb{
-  background: #fff;
+  background: var(--white);
   border-radius: 5rem;
 }
 
@@ -49,4 +52,68 @@ body{
   align-items: center;
   justify-content: space-between;
   padding:1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top:0; 
+  left:0;
+  right:0;
+  z-index:1000;
+}
+
+.header .logo img{
+  height: 6rem;
+}
+
+.header .nav-bar a {
+  margin:0 1rem;
+  font-size:1.6rem;
+  color:var(--white)
+}
+
+.header .nav-bar a:hover{
+  color:var(--main-color);
+  border-bottom:0.1rem solid var(--main-color);
+ padding-bottom: .5rem;
+}
+
+.header .icons a{
+  color:var(--white);
+  cursor:pointer;
+  font-size:2.5rem;
+  margin-left:2rem;
+}
+
+.header .icons div:hover{
+color:var(--main-color);
+}
+
+#menu-btn{
+  display:none;
+}
+
+.header .search-form{
+  position: absolute;
+  top:115%;
+  right:7%;
+  background-color: var(--white);
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.header .search-form input{
+  height: 100%;
+  width:100%;
+  font-size:1.6rem;
+  color:var(--var);
+  padding: 1rem;
+  text-transform: none;
+}
+
+.header .search-form label{
+  cursor:pointer;
+  font-size:2.2rem;
+  margin-right:1.5rem;
+  color:var(--black);
 }
