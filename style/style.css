@@ -1,4 +1,4 @@
-/*----------Bases -------------------*/
+
 :root {
   --main-color: #d3ad7f;
   --black: #13131a;
@@ -74,7 +74,7 @@ section {
   letter-spacing: 0.2rem;
 }
 
-/*----------HEADER -------------------*/
+
 
 .header {
   background: var(--bg);
@@ -213,7 +213,7 @@ section {
   text-align: center;
 }
 
-/*-----------HOME--------------------*/
+
 
 .home {
   min-height: 100vh;
@@ -239,70 +239,6 @@ section {
   line-height: 1.8;
   padding: 1rem 0;
   color: var(--white);
-}
-
-/*---------- MEDIAS QUERIES -------------------*/
-
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-
-  .header {
-    padding: 1.5rem 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  #menu-btn {
-    display: inline-block;
-  }
-
-  .header .nav-bar {
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    background: var(--white);
-    width: 30rem;
-    height: calc(100vh - 9.5rem);
-  }
-
-  .header .nav-bar.active {
-    right: 0;
-  }
-
-  .header .nav-bar a {
-    color: var(--black);
-    display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-  }
-
-  .header .search-form {
-    width: 90%;
-    height: 4rem;
-  }
-
-  .home {
-    background-position: left;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .home .content h3 {
-    font-size: 4.5rem;
-  }
-
-  .home .content p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
 }
 
 .about .row {
@@ -377,6 +313,7 @@ section {
 .menu .box-container .box:hover > * {
   color: var(--black);
 }
+
 
 .products .box-container {
   display: grid;
@@ -630,4 +567,69 @@ background-color: var(--main-color);
 
 .footer .credit span{
  color:var(--main-color) 
+}
+
+
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .nav-bar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: var(--white);
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .nav-bar.active {
+    right: 0;
+  }
+
+  .header .nav-bar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .search-form {
+    width: 90%;
+    height: 4rem;
+  }
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
