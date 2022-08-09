@@ -16,17 +16,28 @@
 <h1 id="functions"> :hammer: Funcionalidades</h1>
 
 <h1 id="responsivo"> 💻 :iphone: Responsividade</h1>
-<h2> Como tornei o site responsivo </h2>
-<h3> No CSS ... </h3>
 
- ![tablet](https://user-images.githubusercontent.com/94020264/180670760-7ccb2936-d932-4b8a-87b6-73a893fff6fb.png)
- 
-<li> Unidades em rem </li> 
-<li> Width em porcentagem não em px .... </li>
-<li> Grid dass box com minmax ... <li>
-<li> Medias queries </li>
-## img
-<p> texto ... </p>
+## Unidades relativas no CSS  
+
+![html](https://user-images.githubusercontent.com/94020264/183547543-2e70e0c2-400a-478c-874a-08e8403a2df8.png) 
+
+<p> O CSS (Cascading Style Sheets) é uma linguagem de folha de estilo, sendo ela  utilizada para descrever como os elementos HTML serão apresentados. Para que uma página seja responsiva seus elementos deverão ser adaptados a diferentes tamanhos de tela. Logo as unidades de medida dos elementos devem ser relativas. No CSS existem unidades relativas que são calculadas tendo como base outra unidade de medida definida. Nesse projeto utilizei a unidade de medida rem (“root em”), fazendo referência às medidas do root. Normalmente os browsers especificam o tamanho default da fonte do elemento root (raiz) como 16px, sabendo disso deixei o font-size igual a 62,5% de 16px (10px), facilitando assim a definição de valores. Exemplo: 1.2rem é igual a 1.2 * 10px = 12px. </p>
+
+## Medias Queries 
+
+
+![MQ1](https://user-images.githubusercontent.com/94020264/183547769-7a81865e-67ed-4a04-b57c-f99440ceb4e3.png)
+
+![MQ2](https://user-images.githubusercontent.com/94020264/183548375-ec81d400-10c1-43ce-be05-8f0019f80970.png)
+
+
+<p> As Medias Queries quando adicionadas ao CSS, deixam a apresentação do conteúdo adaptado a uma gama específica de dispositivos. Nesse projeto utilizei três tamanhos para utilizar de referência: 991px (para computadores), 768px (para tablets) e 450px (para smartphones). Além disso, fiz uma versão da barra de menu para telas menores.  </p>
+
+## JavaScript
+
+![Menu-mobile](https://user-images.githubusercontent.com/94020264/183554876-942e1ccf-6190-4980-a4bc-683e2248d26f.png)
+
+<p> Para ativação dos botões de navegação em smartphones utilizei o javaScript. </p>
 
 
 <h1 id="tecnologias"> :globe_with_meridians: Tecnologias</h1>
@@ -36,4 +47,10 @@
 <li>JavaScript</li>
 
 <h1 id='autor'> Autor  :smiley: </h1>
+
+
+
+<p> Giulyano Santos :rocket: </p>
+<p> Feito com carinho por Giulyano Santos :wave: entre em contato: </p>
+<a href='https://www.linkedin.com/in/giulyano-santos-a92b6917b/' style='text-decoration:none;' target="_blank" > Linkedin </a>
 
