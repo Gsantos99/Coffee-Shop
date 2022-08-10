@@ -15,6 +15,9 @@
 
 <h1 id="functions"> :hammer: Funcionalidades</h1>
 
+## Conversão
+<p> A ideia do projeto é trazer mais clientes para a cafeteria por meio de um site responsivo, no qual o visitante pode escolher produtos e comprar por meio da internet. Além da receita do ponto físico, o negócio teria a receita advinda dos pedidos da página web. </p>
+
 <h1 id="responsivo"> 💻 :iphone: Responsividade</h1>
 
 ## Unidades relativas no CSS  
@@ -31,7 +34,7 @@
 ![MQ2](https://user-images.githubusercontent.com/94020264/183548375-ec81d400-10c1-43ce-be05-8f0019f80970.png)
 
 
-<p> As Medias Queries quando adicionadas ao CSS, deixam a apresentação do conteúdo adaptado a uma gama específica de dispositivos. Nesse projeto utilizei três tamanhos para utilizar de referência: 991px (para computadores), 768px (para tablets) e 450px (para smartphones). Além disso, fiz uma versão da barra de menu para telas menores.  </p>
+<p> As Medias Queries quando adicionadas ao CSS deixam a apresentação do conteúdo adaptado a uma gama específica de dispositivos. Nesse projeto utilizei três tamanhos para utilizar de referência: 991px (para computadores), 768px (para tablets) e 450px (para smartphones). Além disso, fiz uma versão da barra de menu para telas menores.  </p>
 
 ## JavaScript
 
@@ -39,6 +42,10 @@
 
 <p> Para ativação dos botões de navegação em smartphones utilizei o javaScript. </p>
 
+
+![JS](https://user-images.githubusercontent.com/94020264/183790477-46101d06-7bed-4888-ba63-103f3fb7af33.png)
+
+<p> A Document Object Model (DOM) é uma interface de programação para documentos HTML e XML. Por meio dela o JavaScript pode alterar o estilo e o conteúdo da página HTML. Utilizei essa funcionalidade para substituir a barra de menu de telas maiores (desktop) por um menu lateral, exibido em smartphones, por meio de uma propriedade que adiciona ou retira classes (CSS) de elementos HTML: Element.classList. </p>
 
 <h1 id="tecnologias"> :globe_with_meridians: Tecnologias</h1>
 <p> Para fazer o projeto utilizei as seguintes tecnologias: </p>
@@ -48,9 +55,9 @@
 
 <h1 id='autor'> Autor  :smiley: </h1>
 
-
+![FOTO - 350PX](https://user-images.githubusercontent.com/94020264/183787084-858f7888-1be2-4329-add6-221bbab214d3.png)
 
 <p> Giulyano Santos :rocket: </p>
-<p> Feito com carinho por Giulyano Santos :wave: entre em contato: </p>
-<a href='https://www.linkedin.com/in/giulyano-santos-a92b6917b/' style='text-decoration:none;' target="_blank" > Linkedin </a>
+<p> Feito com carinho por Giulyano Santos :wave: entre em contato: <a href='https://www.linkedin.com/in/giulyano-santos-a92b6917b/' style='text-decoration:none;' target="_blank" > Linkedin </a> </p>
+
 
